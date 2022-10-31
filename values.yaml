@@ -1,0 +1,10 @@
+statefulset:
+  image: "mysql"
+  tag: "5.7"
+  resources:
+    requests:
+      cpu: 13m
+    limits:
+      memory: 1000Mi  
+name: example-app-1
+  
